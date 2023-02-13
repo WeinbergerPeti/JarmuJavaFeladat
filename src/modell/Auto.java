@@ -4,27 +4,21 @@ public class Auto extends Jarmu
 {
     private boolean defekt;
 
-    public Auto(boolean defekt, boolean beinditva, boolean uzemanyag, boolean megerkezett) 
+    public Auto() 
     {
-        super(beinditva, uzemanyag, megerkezett);
-        this.defekt = defekt;
-    }
-
-    public boolean isDefekt() 
-    {
-        return defekt;
+        super();
+        this.defekt = false;
     }
     
     public void kereketCserel()
     {
-        if(isDefekt()==true)
-        {
-            
-        }
+
     }
     
     public boolean halad()
     {
-        return false;
+        boolean siker = false;
+
+        return siker;
     }
 }
