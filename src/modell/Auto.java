@@ -17,10 +17,9 @@ public class Auto extends Jarmu
     
     public void kereketCserel()
     {
-        String szoveg="";
         if(isDefekt()==true)
         {
-            szoveg="Defekt! Kereket kell cserélni!";
+            
         }
     }
     

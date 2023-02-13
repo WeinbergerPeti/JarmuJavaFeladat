@@ -27,31 +27,30 @@ public abstract class Jarmu
     
     public void beindit()
     {
-        String szoveg="";
         if(isBeinditva()==true)
         {
-            szoveg="Beindítva!";
+            
         }
     }
     
     public void leallit()
     {
-        String szoveg="";
         if(isMegerkezett()==true)
         {
-            szoveg="Megérkezett a motor leáll!";
+            
         }
         else if(tankol()==true)
         {
-            szoveg="Tankol a motor leáll!";
+            
         }
     }
     
+    //ha az autó leállt akkor lehet tankolni
     public boolean tankol()
     {
-        
         return false;
     }
+    
     
     public boolean halad()
     {
